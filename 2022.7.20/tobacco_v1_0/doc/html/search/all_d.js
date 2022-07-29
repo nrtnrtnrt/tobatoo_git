@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['save',['save',['../class_save_buf.html#a820364db9307d6b9d5871a0144db92c7',1,'SaveBuf']]],
+  ['save_5fbuf_5fqueue',['save_buf_queue',['../thread_8cpp.html#a18d133479a3f80d1f8fe4634ef824a0a',1,'thread.cpp']]],
+  ['save_5fflag',['save_flag',['../class_save_thread.html#a01de15ffb7443c699e853fe076d67ea3',1,'SaveThread']]],
+  ['save_5fthread',['save_thread',['../class_widget.html#a8bf5240d1de326806c9c68e7e8590fbf',1,'Widget']]],
+  ['save_5fvalid_5fbuf',['save_valid_buf',['../camera_8cpp.html#a46ac8052cb2303522a6d0098471adcaf',1,'camera.cpp']]],
+  ['savebuf',['SaveBuf',['../class_save_buf.html',1,'SaveBuf'],['../class_save_buf.html#a5e2a8a36e46c94cd2da36b517456c713',1,'SaveBuf::SaveBuf()']]],
+  ['saveimgnumber',['SAVEIMGNUMBER',['../thread_8h.html#a4898e9f7fecd67d9922c2344227c6b27',1,'thread.h']]],
+  ['savethread',['SaveThread',['../class_save_thread.html',1,'SaveThread'],['../class_save_thread.html#a1a55f48bae6d46deab1511e1a3b25fea',1,'SaveThread::SaveThread()']]],
+  ['send_5fbuf',['send_buf',['../camera_8cpp.html#ad559c7612ab5e337edd839e77a895e53',1,'send_buf():&#160;camera.cpp'],['../thread_8cpp.html#ad559c7612ab5e337edd839e77a895e53',1,'send_buf():&#160;camera.cpp']]],
+  ['send_5fcalibration_5ffinished_5fmessage',['send_calibration_finished_message',['../class_camera.html#a2b215d3845486eac5c22c307749c1181',1,'Camera']]],
+  ['send_5fdata_5fto_5fui',['send_data_to_ui',['../class_camera.html#a3713d83f3f62cf44cfd2f91d6265b12a',1,'Camera']]],
+  ['send_5fmask',['send_mask',['../class_recv_thread.html#a1f7b19febd03d66314f4db496207df37',1,'RecvThread']]],
+  ['send_5fserver',['send_server',['../class_send_thread.html#a59c0db7b361988812cbd019c59b5757c',1,'SendThread']]],
+  ['send_5fshow_5fframe_5fcount',['send_show_frame_count',['../camera_8cpp.html#a5783ffcf35af37ba9344e9b4047c0502',1,'camera.cpp']]],
+  ['send_5fsocket',['send_socket',['../class_send_thread.html#aef816b7bf1ddde739da1c337dad0e15d',1,'SendThread']]],
+  ['send_5ftemp_5fbuf',['send_temp_buf',['../camera_8cpp.html#aafc0a05c10a93c2c0e26efbf74ed05e0',1,'camera.cpp']]],
+  ['send_5fthread',['send_thread',['../class_widget.html#a12ccf0ec4b405591c845fcad834a2265',1,'Widget']]],
+  ['send_5fvalid_5fbuf',['send_valid_buf',['../camera_8cpp.html#ad57ce499497c3cd109ea74d8dd023723',1,'send_valid_buf():&#160;camera.cpp'],['../thread_8cpp.html#ad57ce499497c3cd109ea74d8dd023723',1,'send_valid_buf():&#160;camera.cpp']]],
+  ['sendthread',['SendThread',['../class_send_thread.html',1,'SendThread'],['../class_send_thread.html#af140abb85fa7c53e9037f7bfe6c8afa1',1,'SendThread::SendThread()']]],
+  ['single_5fframe',['SINGLE_FRAME',['../camera_8h.html#aef1c0739eadff475965b5adc8bdf4606',1,'camera.h']]],
+  ['start_5facquisition',['start_acquisition',['../class_camera.html#a14e3b64f2b765169aa16de42fe0ec537',1,'Camera']]],
+  ['stop_5facquisition',['stop_acquisition',['../class_camera.html#a81a9db08f36cdbedbf992e8fd8cfd79e',1,'Camera']]],
+  ['sum_5fmat_5ffor_5fcalibration',['sum_mat_for_calibration',['../class_camera.html#acb1079ae363507881f72a44131af1981',1,'Camera']]]
+];
