@@ -124,6 +124,7 @@ Widget::~Widget()
 
 void Widget::set_spinbox_range()
 {
+    //定义取值范围
     ui->spinbox_explosure->setRange(0.0f, 2000.0f);
     ui->spinbox_explosure->setDecimals(2);
     ui->spinbox_encoder->setRange(0, 1000);
@@ -142,6 +143,7 @@ void Widget::set_spinbox_range()
 
 void Widget::set_ui(bool fullscreen)
 {
+    //默认初始设置，显示的界面
     ui->tabWidget->findChildren<QTabBar*>().at(0)->hide();
     ui->tabWidget->setCurrentIndex(0);
     if(fullscreen)
@@ -154,6 +156,7 @@ void Widget::set_ui(bool fullscreen)
 
 void Widget::connect_monitor()
 {
+    //连接到显示器
     up_machine = new QTcpSocket();
     up_machine->connectToHost("172.20.10.4", 9001);
     cout << ">>> trying to connect monitor......... >>>" << endl;
@@ -171,10 +174,11 @@ void Widget::connect_monitor()
 
 void Widget::load_parameter_doc()
 {
+    //读取paramter
     ifstream fin;
-    fin.open(parameter_file);
+    fin.open(parameter_file);//没有看到fin.close
     string str;
-    vector<string> config;
+    vector<string> config;//没有看到vector的头文件，但未报错
     while(getline(fin, str))
         config.push_back(str);
 
@@ -187,7 +191,7 @@ void Widget::load_parameter_doc()
      * 9.有效谱段
      * 10.threshold_for_model
      * 11.threshold_rgb
-    */
+     */
     file_explosure = atof(config[0].c_str());
     file_encoder = atoi(config[1].c_str());
     file_delay = atoi(config[2].c_str());

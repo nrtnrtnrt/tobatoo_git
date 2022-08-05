@@ -15,7 +15,7 @@
 
 
 #define FIFO_PATH "/tmp/dkimg.fifo"
-#define FIFO_MASK "/tmp/dkmask.fifo"
+#define FIFO_MASK "/tmp/dkmask.fifo" 
 #define FIFO_RGB "/tmp/dkrgb.fifo"
 
 #define ACQUISITION_ENABLE

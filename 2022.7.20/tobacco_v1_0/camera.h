@@ -130,7 +130,7 @@ public:
     int single_frame_size;
     int multi_frame_size;
 
-    explicit Camera(QObject *parent = nullptr);
+    explicit Camera(QObject *parent = nullptr);//默认构造函数
 
     ~Camera();
 

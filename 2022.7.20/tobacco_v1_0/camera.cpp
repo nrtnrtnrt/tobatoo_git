@@ -33,6 +33,7 @@ QSemaphore ready_to_send_rgb(0); //rgb图像信号量
 
 uint8_t* send_rgb_buf = nullptr;
 //uint8_t* send_temp_rgb_buf = nullptr;
+//rgb
 
 uint8_t* channel_b = nullptr;
 uint8_t* channel_g = nullptr;
@@ -60,12 +61,12 @@ Camera::Camera(QObject *parent) : QObject(parent)
 
 Camera::~Camera()
 {
-    free_stream_buffers();
+    free_stream_buffers();//释放缓存流
 
     if( lStream != nullptr )
     {
         lStream->Close();
-        PvStream::Free(lStream);
+        PvStream::Free(lStream);//Free应该是父类的一个function
         cout << ">>> close and free lstream >>>" << endl;
     }
 
@@ -179,7 +180,7 @@ int Camera::enum_connect_camera()
         cout << "*** PvSystem::Find Error: " << lResult.GetCodeString().GetAscii();
         return -1;
     }
-    // Go through all interfaces
+    // Go through all interfaces接口
     uint32_t lInterfaceCount = lSystem.GetInterfaceCount();
     for ( uint32_t x = 0; x < lInterfaceCount; x++ )
     {
@@ -314,7 +315,7 @@ void Camera::create_stream_buffers()
 //    cout << ">>> create stream buffers successfully" << endl;
 }
 
-void Camera::free_stream_buffers()
+void Camera::free_stream_buffers()//释放缓存流
 {
     bufferlist::iterator iter = lbufferlist.begin();
     while( iter != lbufferlist.end() )

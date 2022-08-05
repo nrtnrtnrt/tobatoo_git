@@ -7,6 +7,10 @@
 #include "fstream"
 #include "parameter.h"
 
+#include <QtSerialPort/QtSerialPort>
+#include <QList>
+#include <QtSerialPort/QSerialPortInfo>
+
 namespace Ui {
 class Widget;
 }
@@ -16,7 +20,7 @@ class Widget : public QWidget
     Q_OBJECT
 
 public:
-    explicit Widget(QWidget *parent = 0);
+    explicit Widget(QWidget *parent = 0);//构造
     ~Widget();
 
     SendThread* send_thread = nullptr;
@@ -119,6 +123,7 @@ private slots:
     void on_btn_save_enable_clicked();
 
     void on_btn_save_disenable_clicked();
+
 
 private:
     Ui::Widget *ui;
